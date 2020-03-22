@@ -5,6 +5,7 @@ on:
 env:
   tf_version: 'latest'
   tf_working_dir: '.'
+  AWS_DEFAULT_REGION: 'us-east-2'
 jobs:
   terraform:
     name: 'Terraform'
