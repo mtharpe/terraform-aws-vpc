@@ -731,17 +731,6 @@ It is possible to integrate this VPC module with [terraform-aws-transit-gateway 
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
-## Tests
-
-This module has been packaged with [awspec](https://github.com/k1LoW/awspec) tests through test kitchen. To run them:
-
-1. Install [rvm](https://rvm.io/rvm/install) and the ruby version specified in the [Gemfile](https://github.com/terraform-aws-modules/terraform-aws-vpc/tree/master/Gemfile).
-2. Install bundler and the gems from our Gemfile:
-```
-gem install bundler; bundle install
-```
-3. Test using `bundle exec kitchen test` from the root of the repo.
-
 ## License
 
 Apache 2 Licensed. See LICENSE for full details.
