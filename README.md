@@ -33,6 +33,7 @@ Athena, Rekognition, Elastic File System (EFS), Cloud Directory
 * [Default VPC](https://www.terraform.io/docs/providers/aws/r/default_vpc.html)
 * [Default Network ACL](https://www.terraform.io/docs/providers/aws/r/default_network_acl.html)
 
+
 ## Terraform versions
 
 Terraform 0.12. Pin module version to `~> v2.0`. Submit pull-requests to `master` branch.
