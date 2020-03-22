@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/mtharpe/terraform-aws-module-vpc/workflows/Terraform/badge.svg)](https://github.com/mtahrpe/terraform-aws-module-vpc/actions)
+![Terraform GitHub Actions](https://github.com/mtharpe/terraform-aws-module-vpc/workflows/Terraform%20GitHub%20Actions/badge.svg)
 
 # AWS VPC Terraform module
 
