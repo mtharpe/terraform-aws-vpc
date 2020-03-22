@@ -33,8 +33,6 @@ Athena, Rekognition, Elastic File System (EFS), Cloud Directory
 * [Default VPC](https://www.terraform.io/docs/providers/aws/r/default_vpc.html)
 * [Default Network ACL](https://www.terraform.io/docs/providers/aws/r/default_network_acl.html)
 
-<a href="https://cloudcraft.co/?utm_source=terraform-aws-vpc" target="_blank"><img src="https://raw.githubusercontent.com/antonbabenko/modules.tf-lambda/master/misc/cloudcraft-logo.png" alt="Cloudcraft - the best way to draw AWS diagrams" width="211" height="56" /></a>
-
 ## Terraform versions
 
 Terraform 0.12. Pin module version to `~> v2.0`. Submit pull-requests to `master` branch.
