@@ -1,0 +1,16 @@
+name: CI
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: hashicorp/terraform
+    steps:
+    - uses: actions/checkout@v2
+    - name: Validate Terraform Code
+      run: |
+        terraform init,
+        terraform validate
