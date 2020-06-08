@@ -731,6 +731,12 @@ It is possible to integrate this VPC module with [terraform-aws-transit-gateway 
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
-## License
+## License and Maintainer
 
-Apache 2 Licensed. See LICENSE for full details.
+Maintainer:: HashiCorp (<hello@hashicorp.com>)
+
+Source:: https://github.com/mtharpe/terraform-aws-vpc
+
+Issues:: https://github.com/mtharpe/terraform-aws-vpc/issues
+
+License:: Apache-2.0
