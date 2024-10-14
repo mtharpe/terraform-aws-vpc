@@ -33,8 +33,6 @@ resource "aws_vpc" "this" {
   instance_tenancy                 = var.instance_tenancy
   enable_dns_hostnames             = var.enable_dns_hostnames
   enable_dns_support               = var.enable_dns_support
-  enable_classiclink               = var.enable_classiclink
-  enable_classiclink_dns_support   = var.enable_classiclink_dns_support
   assign_generated_ipv6_cidr_block = var.enable_ipv6
 
   tags = merge(
@@ -863,7 +861,7 @@ locals {
 resource "aws_eip" "nat" {
   count = var.create_vpc && var.enable_nat_gateway && false == var.reuse_nat_ips ? local.nat_gateway_count : 0
 
-  vpc = true
+  associate_with_private_ip = true
 
   tags = merge(
     {
@@ -1074,7 +1072,6 @@ resource "aws_default_vpc" "this" {
 
   enable_dns_support   = var.default_vpc_enable_dns_support
   enable_dns_hostnames = var.default_vpc_enable_dns_hostnames
-  enable_classiclink   = var.default_vpc_enable_classiclink
 
   tags = merge(
     {
