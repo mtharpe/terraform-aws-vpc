@@ -1,4 +1,4 @@
-![Terraform GitHub Actions](https://github.com/mtharpe/terraform-aws-module-vpc/workflows/Terraform%20GitHub%20Actions/badge.svg)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/mtharpe/terraform-aws-vpc/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/mtharpe/terraform-aws-vpc/tree/main)
 
 # AWS VPC Terraform module
 
