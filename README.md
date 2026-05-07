@@ -24,11 +24,14 @@ These types of resources are supported:
 * [Default Network ACL](https://www.terraform.io/docs/providers/aws/r/default_network_acl.html)
 
 
-## Terraform versions
+## Requirements
 
-Terraform 0.12. Pin module version to `~> v2.0`. Submit pull-requests to `master` branch.
+| Name      | Version          |
+|-----------|------------------|
+| terraform | >= 1.3           |
+| aws       | >= 5.0, < 7.0    |
 
-Terraform 0.11. Pin module version to `~> v1.0`. Submit pull-requests to `terraform011` branch.
+Validates clean against AWS provider v6.
 
 ## Usage
 
